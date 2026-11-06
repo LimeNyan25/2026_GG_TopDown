@@ -15,6 +15,7 @@ public class TopDownPlayer : MonoBehaviour
     private Sprite[] currentSprites;
     private int frameIndex = 0;
     private float frameTimer = 0f;
+    public DialogueBox dialogueBox;   // public 변수들 아래에 추가
 
     void Start()
     {
@@ -28,6 +29,7 @@ public class TopDownPlayer : MonoBehaviour
     }
     void Update()
     {
+        if (dialogueBox.isOpen) { moveInput = Vector2.zero; }   // Update 첫 줄에 추가
         rb.linearVelocity = moveInput * moveSpeed;
         if (facingDir.y > 0) { currentSprites = upSprites; }
        
