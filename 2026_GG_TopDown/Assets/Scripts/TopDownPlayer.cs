@@ -15,43 +15,75 @@ public class TopDownPlayer : MonoBehaviour
     private Sprite[] currentSprites;
     private int frameIndex = 0;
     private float frameTimer = 0f;
-    public DialogueBox dialogueBox;   // public 변수들 아래에 추가
+    public DialogueBox dialogueBox;   
+    //private PlayerHealth playerHealth;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        //playerHealth = GetComponent<PlayerHealth>();
     }
     void OnMove(InputValue value)
     {
+        /*
+        if (playerHealth.isGameOver)
+        {
+            moveInput = Vector2.zero;
+            return;
+        }
+        */
         moveInput = value.Get<Vector2>();
-        if (moveInput != Vector2.zero) { facingDir = moveInput; }
+
+        if (moveInput != Vector2.zero)
+        {
+            facingDir = moveInput;
+        }
     }
+
     void Update()
     {
-        if (dialogueBox.isOpen) { moveInput = Vector2.zero; }   // Update 첫 줄에 추가
+        // 게임 오버라면 플레이어 조작 정지
+       /* 
+        if (playerHealth.isGameOver)
+        {
+            moveInput = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+       */
+        if (dialogueBox.isOpen)
+        {
+            moveInput = Vector2.zero;
+        }
+
         rb.linearVelocity = moveInput * moveSpeed;
+
         if (facingDir.y > 0) { currentSprites = upSprites; }
-       
         else if (facingDir.y < 0) { currentSprites = downSprites; }
-        
         else if (facingDir.x < 0) { currentSprites = leftSprites; }
-        
         else { currentSprites = rightSprites; }
-        
+
         if (moveInput != Vector2.zero)
         {
             frameTimer -= Time.deltaTime;
+
             if (frameTimer <= 0f)
             {
                 frameTimer = frameTime;
                 frameIndex += 1;
-                if (frameIndex >= currentSprites.Length) { frameIndex = 0; }
+
+                if (frameIndex >= currentSprites.Length)
+                {
+                    frameIndex = 0;
+                }
             }
         }
-        else { frameIndex = 0; }
+        else
+        {
+            frameIndex = 0;
+        }
+
         sr.sprite = currentSprites[frameIndex];
     }
 }
-
-
