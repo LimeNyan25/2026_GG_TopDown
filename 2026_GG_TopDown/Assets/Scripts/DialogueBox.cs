@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.UI; // [추가] UI Image 사용
 public class DialogueBox : MonoBehaviour
 {
     public GameObject panel;
     public TMP_Text nameText;
     public TMP_Text bodyText;
+    // [추가] 요한의 초상화를 표시할 UI Image
+    public Image portraitImage;
     public GameObject choicePanel;
     public TMP_Text choiceText1;
     public TMP_Text choiceText2;
@@ -19,6 +22,9 @@ public class DialogueBox : MonoBehaviour
     void Update()
     {
         Keyboard kb = Keyboard.current;
+        // [추가] 키보드가 연결되어 있지 않을 때 오류 방지
+        if (kb == null) return;
+
         if (choosing)
         {
             if (kb.digit1Key.wasPressedThisFrame) { Choose(1); }
@@ -27,7 +33,7 @@ public class DialogueBox : MonoBehaviour
         else if (kb.eKey.wasPressedThisFrame)
         {
             if (isOpen) { Next(); }
-            else if (nearTalk != null) { Open(nearTalk); }
+            else if (nearTalk != null) { nearTalk.Say(); } // [수정] 잠금 여부 확인 후 대화
             else if (nearDoor != null) { nearDoor.Use(); }
         }
     }
@@ -43,6 +49,8 @@ public class DialogueBox : MonoBehaviour
     {
         nameText.text = current.lines[index].speaker;
         bodyText.text = current.lines[index].text;
+        // [추가] 현재 대사에 지정된 초상화로 변경
+        portraitImage.sprite = current.lines[index].portrait;
         bool last = index == current.lines.Length - 1;
         if (last && current.choice1 != "") { ShowChoices(); }
     }
@@ -50,7 +58,17 @@ public class DialogueBox : MonoBehaviour
     {
         index += 1;
         if (index < current.lines.Length) { ShowLine(); }
-        else { Close(); }
+        else
+        {
+            // [추가] 대화가 끝난 Talk를 임시 저장
+            Talk endedTalk = current;
+
+            // [기존] 대화창 닫기
+            Close();
+
+            // [추가] 대화 종료 이벤트 실행
+            endedTalk.onDialogueEnd.Invoke();
+        }
     }
     void ShowChoices()
     {

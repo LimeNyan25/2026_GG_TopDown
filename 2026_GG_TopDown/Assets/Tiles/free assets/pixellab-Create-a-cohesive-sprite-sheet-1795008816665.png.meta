@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 7c4a0d51ea471614cad357126eabe423
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8261004357104961768
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_0
+  - first:
+      213: -1030997007159266551
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_1
+  - first:
+      213: -5292563184513416545
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_2
+  - first:
+      213: 2421668519301367534
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_3
+  - first:
+      213: -5609314237740036793
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_4
+  - first:
+      213: 8465537449873771575
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_5
+  - first:
+      213: 8956626420327873416
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_6
+  - first:
+      213: -150291400775293152
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_7
+  - first:
+      213: 5320691703272676659
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_8
+  - first:
+      213: 7426900523784279492
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_9
+  - first:
+      213: 205332718054883778
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_10
+  - first:
+      213: 9122122838038767101
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_11
+  - first:
+      213: 6409581834340696362
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_12
+  - first:
+      213: -1148475168525092822
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_13
+  - first:
+      213: -6958723019222507580
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_14
+  - first:
+      213: 6171302620905360248
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_15
+  - first:
+      213: 1195230418730836428
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_16
+  - first:
+      213: 5148715187541523884
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_17
+  - first:
+      213: -8576412176767762169
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_18
+  - first:
+      213: -365250051096112320
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_19
+  - first:
+      213: 8072921917985016089
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_20
+  - first:
+      213: 4241258652542606068
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_21
+  - first:
+      213: -5609962828804059124
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_22
+  - first:
+      213: -1734873753313121942
+    second: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 120
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817fdce4e440b5d80800000000000000
+      internalID: -8261004357104961768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 121
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903f7c73fa921b1f0800000000000000
+      internalID: -1030997007159266551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9284cb23d90d86b0800000000000000
+      internalID: -5292563184513416545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 158
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee644b010be7b9120800000000000000
+      internalID: 2421668519301367534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 132
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dc6f19b66b722b0800000000000000
+      internalID: -5609314237740036793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 123
+        width: 22
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c0e745571ab7570800000000000000
+      internalID: 8465537449873771575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 125
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b758966445c4c70800000000000000
+      internalID: 8956626420327873416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 126
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0272efb64ce0aedf0800000000000000
+      internalID: -150291400775293152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 125
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d9fe4f9e4e6d940800000000000000
+      internalID: 5320691703272676659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 75
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5135e4da6a11760800000000000000
+      internalID: 7426900523784279492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 76
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c14d68e40d79d200800000000000000
+      internalID: 205332718054883778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 76
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df567ced36a489e70800000000000000
+      internalID: 9122122838038767101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 69
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a218caa08b863f850800000000000000
+      internalID: 6409581834340696362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 74
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2874ba4bebcf00f0800000000000000
+      internalID: -1148475168525092822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 9
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf98ec6846ad6f90800000000000000
+      internalID: -6958723019222507580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 9
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b4088690fd4a550800000000000000
+      internalID: 6171302620905360248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc16135bbbf469010800000000000000
+      internalID: 1195230418730836428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 14
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad321b1f29e37740800000000000000
+      internalID: 5148715187541523884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 16
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7014c64a0967af880800000000000000
+      internalID: -8576412176767762169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0431932830f5eeaf0800000000000000
+      internalID: -365250051096112320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 8
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91946f456b7c80070800000000000000
+      internalID: 8072921917985016089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 38
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa9a59f54afbda30800000000000000
+      internalID: 4241258652542606068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 8
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c001df1b7886522b0800000000000000
+      internalID: -5609962828804059124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-cohesive-sprite-sheet-1795008816665_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a696f9b538d7ce7e0800000000000000
+      internalID: -1734873753313121942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_0: -8261004357104961768
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_1: -1030997007159266551
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_10: 205332718054883778
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_11: 9122122838038767101
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_12: 6409581834340696362
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_13: -1148475168525092822
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_14: -6958723019222507580
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_15: 6171302620905360248
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_16: 1195230418730836428
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_17: 5148715187541523884
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_18: -8576412176767762169
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_19: -365250051096112320
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_2: -5292563184513416545
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_20: 8072921917985016089
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_21: 4241258652542606068
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_22: -5609962828804059124
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_23: -1734873753313121942
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_3: 2421668519301367534
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_4: -5609314237740036793
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_5: 8465537449873771575
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_6: 8956626420327873416
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_7: -150291400775293152
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_8: 5320691703272676659
+      pixellab-Create-a-cohesive-sprite-sheet-1795008816665_9: 7426900523784279492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
