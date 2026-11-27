@@ -8,7 +8,9 @@ public class DialogueBox : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text bodyText;
     // [추가] 요한의 초상화를 표시할 UI Image
-    public Image portraitImage;
+    public Image playerPortraitImage;
+    public Image portraitImage;   // public 변수들 아래에 추가(수업시간)
+
     public GameObject choicePanel;
     public TMP_Text choiceText1;
     public TMP_Text choiceText2;
@@ -49,8 +51,12 @@ public class DialogueBox : MonoBehaviour
     {
         nameText.text = current.lines[index].speaker;
         bodyText.text = current.lines[index].text;
-        // [추가] 현재 대사에 지정된 초상화로 변경
-        portraitImage.sprite = current.lines[index].portrait;
+        
+        playerPortraitImage.sprite = current.lines[index].playerPortrait;// [추가] 현재 대사에 지정된 초상화로 변경
+        Sprite face = current.lines[index].portrait;   // 추가(수업시간)
+        portraitImage.sprite = face;   // 추가(수업시간)
+        portraitImage.gameObject.SetActive(face != null);   // 추가(수업시간)
+
         bool last = index == current.lines.Length - 1;
         if (last && current.choice1 != "") { ShowChoices(); }
     }

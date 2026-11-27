@@ -407,20 +407,25 @@ MonoBehaviour:
   lines:
   - speaker: "\uC694\uD55C"
     text: "\uC7A0\uC2DC \uAD1C\uCC2E\uB098?"
+    playerPortrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uB9C8\uD2F0\uC544\uC2A4"
     text: " \uB124, \uC2E0\uBD80\uB2D8. \uBB34\uC2A8 \uC77C\uC774\uC2ED\uB2C8\uAE4C?"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uC694\uD55C"
     text: "\uC8FC\uAD50\uB2D8\uC758 \uD5C8\uAC00\uB97C \uBC1B\uC558\uB124. \uC800\uD0DD\uC73C\uB85C
       \uC870\uC0AC\uB97C \uB098\uAC08 \uC608\uC815\uC774\uC57C."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uB9C8\uD2F0\uC544\uC2A4"
     text: "\uADF8\uB807\uAD70\uC694! \uD544\uC694\uD55C \uBB3C\uD488\uC740 \uBBF8\uB9AC
       \uCC59\uACA8\uB450\uACA0\uC2B5\uB2C8\uB2E4!"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uB9C8\uD2F0\uC544\uC2A4"
     text: "\uC800\uD0DD\uC73C\uB85C \uC9C0\uAE08 \uBC14\uB85C \uCD9C\uBC1C\uD560\uAE4C\uC694?"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: "\uC900\uBE44\uB410\uC5B4. \uC9C0\uAE08 \uCD9C\uBC1C\uD558\uC790."
   choice2: "\uC544\uC9C1\uC774\uC57C. \uC900\uBE44\uAC00 \uC548 \uB410\uC5B4"
@@ -642,7 +647,7 @@ GameObject:
   - component: {fileID: 108983971}
   - component: {fileID: 108983970}
   m_Layer: 5
-  m_Name: LifeText
+  m_Name: StatText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,7 +670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1571, y: 150}
+  m_AnchoredPosition: {x: 1571, y: 200.35}
   m_SizeDelta: {x: 170, y: 60}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &108983970
@@ -721,7 +726,7 @@ GameObject:
   - component: {fileID: 154075785}
   - component: {fileID: 154075784}
   - component: {fileID: 154075783}
-  - component: {fileID: 154075782}
+  - component: {fileID: 154075790}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -729,21 +734,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &154075782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154075781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc91b55faf282c4a8894a2cc664c7dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  life: 3
-  safeTime: 1
-  lifeText: {fileID: 1040894083}
 --- !u!114 &154075783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -954,7 +944,7 @@ Transform:
   m_GameObject: {fileID: 154075781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 49.03, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -963,6 +953,20 @@ Transform:
   - {fileID: 460841092}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154075790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154075781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064cb837b1d60d947bdcde38c376e6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  statText: {fileID: 1040894083}
+  gameOverPanel: {fileID: 0}
 --- !u!1 &164111222
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +999,7 @@ RectTransform:
   m_Children:
   - {fileID: 2101076110}
   - {fileID: 1795051575}
+  - {fileID: 288265181}
   m_Father: {fileID: 215985907}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1166,7 +1171,8 @@ MonoBehaviour:
   panel: {fileID: 164111222}
   nameText: {fileID: 2101076112}
   bodyText: {fileID: 1795051577}
-  portraitImage: {fileID: 805442066}
+  playerPortraitImage: {fileID: 805442066}
+  portraitImage: {fileID: 288265182}
   choicePanel: {fileID: 288337541}
   choiceText1: {fileID: 246983129}
   choiceText2: {fileID: 55847904}
@@ -1487,6 +1493,81 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1
+--- !u!1 &288265180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288265181}
+  - component: {fileID: 288265183}
+  - component: {fileID: 288265182}
+  m_Layer: 5
+  m_Name: Portrait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &288265181
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288265180}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164111223}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 86.44, y: 345.40002}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &288265182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288265180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -5053287436955222781, guid: 6cb3d5b0a058ceb4f90739361a6b417d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &288265183
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288265180}
+  m_CullTransparentMesh: 1
 --- !u!1 &288337541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7535,6 +7616,7 @@ MonoBehaviour:
   lines:
   - speaker: 
     text: "\uC544\uC9C1 \uB098\uAC08 \uB54C\uAC00 \uC544\uB2C8\uB2E4."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: 
   choice2: 
@@ -7856,6 +7938,7 @@ MonoBehaviour:
   lines:
   - speaker: "\uB9C8\uD2F0\uC544\uC2A4"
     text: "\uBA3C\uC800 \uB098\uAC00 \uACC4\uC138\uC694. \uB530\uB77C\uAC00\uACA0\uC2B5\uB2C8\uB2E4!"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: 
   choice2: 
@@ -7934,6 +8017,7 @@ MonoBehaviour:
   lines:
   - speaker: "\uAE40\uC885\uC774"
     text: "\uC5B4 \uBB50\uB77C\uB294\uAC70\uC57C"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 0}
   choice1: 
   choice2: 
@@ -8053,7 +8137,7 @@ GameObject:
   - component: {fileID: 805442067}
   - component: {fileID: 805442066}
   m_Layer: 5
-  m_Name: PortraitImage
+  m_Name: Player Portrait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8148,6 +8232,7 @@ MonoBehaviour:
   lines:
   - speaker: 
     text: "\uC9C0\uAE08 \uB0B4\uAC00 \uAC00\uC57C\uD560 \uACF3\uC774 \uC544\uB2C8\uB2E4"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: 
   choice2: 
@@ -8226,6 +8311,7 @@ MonoBehaviour:
   lines:
   - speaker: "\uAE40\uC885\uC774"
     text: "\uC5B4\uCA4C\uB77C\uB294\uAC70\uC9C0"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 0}
   choice1: 
   choice2: 
@@ -8380,7 +8466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &907697268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8562,7 +8648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &925837894
 Transform:
   m_ObjectHideFlags: 0
@@ -8887,7 +8973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBAA9\uC228 3"
+  m_text: "\uCCB4\uB825 10 / 10\n\uACF5\uACA9\uB825 2\n\uBB3C\uC57D 0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 78d9cc7e5cd842d4e94dd0279811d38d, type: 2}
   m_sharedMaterial: {fileID: -4357274210050813819, guid: 78d9cc7e5cd842d4e94dd0279811d38d, type: 2}
@@ -9155,7 +9241,8 @@ MonoBehaviour:
   lines:
   - speaker: 
     text: "\uC77C\uB2E8 \uC8FC\uAD50\uB2D8\uAED8 \uB9D0\uC500\uC744 \uB4DC\uB9AC\uACE0\uC624\uC790."
-    portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
+    playerPortrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
+    portrait: {fileID: -5053287436955222781, guid: 6cb3d5b0a058ceb4f90739361a6b417d, type: 3}
   choice1: 
   choice2: 
   onChoice1:
@@ -9557,26 +9644,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 17, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 82
-      m_TileSpriteIndex: 82
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 31, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 83
-      m_TileSpriteIndex: 83
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 57, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -9597,26 +9664,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 17, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 82
-      m_TileSpriteIndex: 82
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 31, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 83
-      m_TileSpriteIndex: 83
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 57, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -9628,26 +9675,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -19, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 83
-      m_TileSpriteIndex: 83
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 82
-      m_TileSpriteIndex: 82
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 31, y: 0, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 83
@@ -12333,9 +12360,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0a7ec5bb39158f5428ddab6272960bf0, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: d2a4204df88f75141942dbcb0b2bb397, type: 2}
-  - m_RefCount: 21
+  - m_RefCount: 18
     m_Data: {fileID: 11400000, guid: 93c1ef825a49d6f46941d24f0b9f0421, type: 2}
-  - m_RefCount: 21
+  - m_RefCount: 18
     m_Data: {fileID: 11400000, guid: 109486469e4c35c4fa4421e3e6834262, type: 2}
   - m_RefCount: 240
     m_Data: {fileID: 11400000, guid: f848174373978f643903fb51720b4c2c, type: 2}
@@ -12504,14 +12531,14 @@ Tilemap:
     m_Data: {fileID: -1665586404, guid: 53314098599b01442bcecbda876895ae, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -153329728, guid: 53314098599b01442bcecbda876895ae, type: 3}
-  - m_RefCount: 21
+  - m_RefCount: 18
     m_Data: {fileID: -1246427437, guid: 53314098599b01442bcecbda876895ae, type: 3}
-  - m_RefCount: 21
+  - m_RefCount: 18
     m_Data: {fileID: 1609782704, guid: 53314098599b01442bcecbda876895ae, type: 3}
   - m_RefCount: 240
     m_Data: {fileID: -319129372, guid: 53314098599b01442bcecbda876895ae, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 288
+  - m_RefCount: 282
     m_Data:
       e00: 1
       e01: 0
@@ -12530,7 +12557,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 288
+  - m_RefCount: 282
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -12687,22 +12714,6 @@ CompositeCollider2D:
         Y: -20000000
       - X: 576249984
         Y: -20000000
-    - - X: 176250000
-        Y: 10000000
-      - X: 170000000
-        Y: 10000000
-      - X: 170000000
-        Y: -20000000
-      - X: 176250000
-        Y: -20000000
-    - - X: 320000000
-        Y: 10000000
-      - X: 313750016
-        Y: 10000000
-      - X: 313750016
-        Y: -20000000
-      - X: 320000000
-        Y: -20000000
     - - X: -180000000
         Y: 10000000
       - X: -186250000
@@ -12822,14 +12833,6 @@ CompositeCollider2D:
       - {x: 57.624966, y: 1}
       - {x: 57, y: 0.99997073}
       - {x: 57.000034, y: -2}
-    - - {x: 31.999971, y: -2}
-      - {x: 31.999971, y: 1}
-      - {x: 31.375002, y: 0.99997073}
-      - {x: 31.37503, y: -2}
-    - - {x: 17.624971, y: -2}
-      - {x: 17.624971, y: 1}
-      - {x: 17, y: 0.99997073}
-      - {x: 17.000029, y: -2}
     - - {x: -18.000029, y: -2}
       - {x: -18.000029, y: 1}
       - {x: -18.625, y: 0.99997073}
@@ -13151,6 +13154,7 @@ MonoBehaviour:
   - speaker: 
     text: "\uC0AC\uB78C\uC774 \uC788\uC5C8\uB2E4\uACE0 \uD560 \uC628\uAE30\uAC00
       \uC5C6\uB2E4."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: 
   choice2: 
@@ -13927,34 +13931,42 @@ MonoBehaviour:
   lines:
   - speaker: "\uC694\uD55C"
     text: "\uC8FC\uAD50\uB2D8, \uC7A0\uC2DC \uB9D0\uC500 \uB098\uB20C \uC218 \uC788\uACA0\uC2B5\uB2C8\uAE4C?"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uBCA0\uB124\uB515\uD1A0"
     text: "\uBB34\uC2A8 \uC77C\uC778\uAC00, \uC694\uD55C? \uACE0\uD574\uC131\uC0AC\uB294
       \uC798 \uB9C8\uCCE4\uB098?"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uC694\uD55C"
     text: "\uC0AC\uC2E4 \uD55C \uBC29\uBB38\uC790\uB85C\uBD80\uD130 \uD2B9\uC774\uD55C
       \uBD80\uD0C1\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4. \uC800\uD0DD\uC5D0 \uAC07\uD78C
       \uC0AC\uB78C\uB4E4\uC744 \uAD6C\uD574\uB2EC\uB77C\uACE0 \uD558\uB354\uAD70\uC694."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uBCA0\uB124\uB515\uD1A0"
     text: "\u2026\uADF8 \uC800\uD0DD\uC774\uB77C\uBA74 \uB9C8\uC744 \uC678\uACFD\uC5D0
       \uC788\uB294 \uC624\uB798\uB41C \uC800\uD0DD\uC744 \uB9D0\uD558\uB294 \uAC74\uAC00?"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uC694\uD55C"
     text: "\uB124. \uBC29\uBB38\uC790\uC758 \uB9D0\uC774 \uBB34\uCC99 \uAC04\uC808\uD588\uC2B5\uB2C8\uB2E4.
       \uC9C1\uC811 \uCC3E\uC544\uAC00 \uD655\uC778\uD574 \uBCF4\uACE0 \uC2F6\uC2B5\uB2C8\uB2E4."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uBCA0\uB124\uB515\uD1A0"
     text: "\uADF8\uACF3\uC5D0 \uAD00\uD55C \uC18C\uBB38\uC740 \uB098\uB3C4 \uB4E4\uC5B4\uBCF8
       \uC801\uC774 \uC788\uB124. \uC88B\uB124, \uC870\uC0AC\uB97C \uD5C8\uAC00\uD558\uC9C0."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uBCA0\uB124\uB515\uD1A0"
     text: "\uD558\uC9C0\uB9CC \uD63C\uC790 \uC6C0\uC9C1\uC774\uC9C0\uB294 \uB9D0\uAC8C.
       \uB2E4\uB978 \uC0AC\uC81C\uB4E4\uC5D0\uAC8C\uB3C4 \uC5F0\uB77D\uD574 \uB450\uACA0\uB124."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   - speaker: "\uC694\uD55C"
     text: "\uAC10\uC0AC\uD569\uB2C8\uB2E4, \uC8FC\uAD50\uB2D8."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 7199705072138568028, guid: a64e455a2f789d2468b5f37a83ad83e4, type: 3}
   choice1: 
   choice2: 
@@ -14784,9 +14796,11 @@ MonoBehaviour:
   - speaker: "\uD45C\uC9C0\uD310"
     text: "\uC74C \uB098\uB294 \uD45C\uC9C0\uD310\uC778\uB370 \uB098\uB3C4\uC798\uBAA8\uB974\uACA0\uC5B4
       \uC6C0\uC9C1\uC774\uACE0 \uC2F6\uC5B4"
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 0}
   - speaker: "\uB098"
     text: "\uC800\uB7F0...."
+    playerPortrait: {fileID: 0}
     portrait: {fileID: 0}
   choice1: 
   choice2: 

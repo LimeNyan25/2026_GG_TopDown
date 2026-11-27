@@ -16,23 +16,17 @@ public class TopDownPlayer : MonoBehaviour
     private int frameIndex = 0;
     private float frameTimer = 0f;
     public DialogueBox dialogueBox;   
-    //private PlayerHealth playerHealth;
+    
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        //playerHealth = GetComponent<PlayerHealth>();
+        
     }
     void OnMove(InputValue value)
     {
-        /*
-        if (playerHealth.isGameOver)
-        {
-            moveInput = Vector2.zero;
-            return;
-        }
-        */
+        
         moveInput = value.Get<Vector2>();
 
         if (moveInput != Vector2.zero)
@@ -43,15 +37,7 @@ public class TopDownPlayer : MonoBehaviour
 
     void Update()
     {
-        // 게임 오버라면 플레이어 조작 정지
-       /* 
-        if (playerHealth.isGameOver)
-        {
-            moveInput = Vector2.zero;
-            rb.linearVelocity = Vector2.zero;
-            return;
-        }
-       */
+        
         if (dialogueBox.isOpen)
         {
             moveInput = Vector2.zero;
